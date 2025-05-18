@@ -1,10 +1,10 @@
 # Spotify_dataset
 
-## Data Set link on Kaggle 
+### Data Set link on Kaggle 
 https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset/data
 
 ### Overview
-This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using SQL. It involves performing SQL queries of varying complexity (Level I, Level II, Level III). The primary goals of the project are to practice advanced SQL skills(using SQL Server) and generate valuable insights from the dataset.
+This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using SQL. It involves performing SQL queries of varying complexity (**Level I**, **Level II**, **Level III**). The primary goals of the project are to practice advanced SQL skills(using SQL Server) and generate valuable insights from the dataset.
 
 
 ### Data Exploration
@@ -18,16 +18,14 @@ Various metrics such as danceability, energy, loudness, tempo etc.
 
 ### Practice SQL Queries
 
-SELECT *
-FROM spotify
 
---Level I
+**--Level I**
 --1. Retrieve the names of all tracks that have more than 1 billion streams.
-
+``` sql
 SELECT track, stream
 FROM spotify
 WHERE stream > 1000000000;
-
+```
 --2. List all albums along with their respective artists.
 
 SELECT album, artist
