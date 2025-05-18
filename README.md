@@ -133,8 +133,8 @@ FROM spotify
 WHERE liveness != 0 AND Energy/Liveness > 1.2 ; -- to avoid "Divide by zero" error
 ```
 
-### Technology Stack  
+### Technology Stack    
 Database: **SQL Sever**  
-SQL Queries: DML, DQL, Aggregations, Subqueries, Common table Expressions, Window Functions
-Tools: SQL Server Management Studio 20
+SQL Queries: DML, DQL, Aggregations, Subqueries, Common table Expressions, Window Functions  
+Tools: SQL Server Management Studio 20  
 
