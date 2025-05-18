@@ -1,7 +1,7 @@
 SELECT *
 FROM spotify
 
---Level I -
+--Level I 
 --1. Retrieve the names of all tracks that have more than 1 billion streams.
 
 SELECT track, stream
@@ -33,6 +33,7 @@ SELECT artist, count(track) total_tracks
 FROM spotify
 GROUP  BY Artist;
 
+--Level II 
 --6. Calculate the average danceability of tracks in each album.
 
 SELECT Album, ROUND(AVG(Danceability),2) avg_dabceability
@@ -62,6 +63,7 @@ SELECT Track
 FROM spotify
 WHERE most_playedon = 'spotify';
 
+--Level III 
 --11. Find the top 3 most-viewed tracks for each artist using window functions.
 
 WITH CTE AS
