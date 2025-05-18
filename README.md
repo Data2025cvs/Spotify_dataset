@@ -16,7 +16,7 @@ Album: The album to which the track belongs.
 Album_type: The type of album (e.g. single or album).  
 Various metrics such as danceability, energy, loudness, tempo etc.  
 
-### Practice SQL Queries
+### SQL Queries
 
 
 **--Level I**  
