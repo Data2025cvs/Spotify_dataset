@@ -19,7 +19,7 @@ Various metrics such as danceability, energy, loudness, tempo etc.
 ### Practice SQL Queries
 
 
-**--Level I**
+**--Level I**  
 --1. Retrieve the names of all tracks that have more than 1 billion streams.
 ``` sql
 SELECT track, stream
